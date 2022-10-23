@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "American Typewriter Bold";
+  src: url(./fonts/american-typewriter-bold.ttf);
+}
+
+@font-face {
+  font-family: "American Typewriter Regular";
+  src: url(./fonts/american-typewriter-regular.ttf);
+}
+
+.starting-screen {
+  background-image: url(./resources/fondo.png);
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  justify-items: center;
+  height: 100vh;
+}
+
+.countdown-screen {
+  background-image: url(./resources/fondo.png);
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  justify-items: center;
+  height: 100vh;
+}
+
+.move-screen {
+  background-image: url(./resources/fondo.png);
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  justify-items: center;
+  height: 100vh;
+}
+
+.result-page-user-wins__screen {
+  background-image: url(./resources/Rectangle-1.png);
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  align-content: space-around;
+  justify-items: center;
+  height: 100vh;
+}
+.result-page-cpu-wins__screen {
+  background-image: url(./resources/Rectangle-2.png);
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  align-content: space-around;
+  justify-items: center;
+  height: 100vh;
+}
+.result-page-draw__screen {
+  background-image: url(./resources/Rectangle-3.png);
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  align-content: space-around;
+  justify-items: center;
+  height: 100vh;
+}
+
+main-title {
+  grid-row: 1;
+  margin-top: 115px;
+}
+
+instructions-text {
+  grid-row: 1;
+  margin-top: 115px;
+}
+
+blue-button {
+  grid-row: 2;
+  margin-top: 74px;
+}
+
+result-star {
+  grid-row: 1;
+}
+
+result-chart {
+  grid-row: 2;
+}
+
+blue-button.result-page-button {
+  grid-row: 3;
+  margin-top: 0px;
+}
+
+hands-comp {
+  grid-row: 3;
+  align-self: flex-end;
+  margin-top: 86px;
+}
+
+piedra-papel-tijera {
+  grid-row: 3;
+  align-self: flex-end;
+  margin-top: 86px;
+}
+
+countdown-comp {
+  grid-row: 1;
+}
+
+piedra-papel-tijera.countdown__hands {
+  grid-row: 2;
+  align-self: flex-end;
+  margin-top: 0px;
+}

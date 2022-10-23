@@ -1,0 +1,21 @@
+{
+  "name": "desafio-m5",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.0",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
