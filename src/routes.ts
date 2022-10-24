@@ -6,23 +6,23 @@ import { initResultPage } from "./pages/result";
 
 const routes = [
   {
-    path: /\/start/,
+    path: /\/desafio-m5\/start/,
     component: initStartPage,
   },
   {
-    path: /\/instructions/,
+    path: /\/desafio-m5\/instructions/,
     component: initInstructionsPage,
   },
   {
-    path: /\/countdown/,
+    path: /\/desafio-m5\/countdown/,
     component: initCountdownPage,
   },
   {
-    path: /\/move/,
+    path: /\/desafio-m5\/move/,
     component: initMovePage,
   },
   {
-    path: /\/result/,
+    path: /\/desafio-m5\/result/,
     component: initResultPage,
   },
 ];
