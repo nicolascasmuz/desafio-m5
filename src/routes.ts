@@ -44,7 +44,7 @@ export function initRouter(container) {
       }
     }
   }
-  if (location.pathname.includes("github.io") || "/") {
+  if (location.host.includes("github.io") || "/") {
     goTo("/desafio-m5/start");
   } else {
     handleRoute(location.pathname);
