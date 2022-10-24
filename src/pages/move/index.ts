@@ -11,7 +11,7 @@ export function initMovePage(url) {
   // CASO DE QUE NO SE HAYA EJECUTADO NINGUNA JUGADA.
   if (currentMoves.myMove == "") {
     setTimeout(function () {
-      url.goTo("/countdown");
+      url.goTo("/instructions");
     }, 0);
   } else {
     setTimeout(function () {
