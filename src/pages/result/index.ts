@@ -50,7 +50,7 @@ export function initResultPage(url) {
     ) as HTMLElement;
 
     buttonStartEl.addEventListener("click", () => {
-      url.goTo("/countdown");
+      url.goTo("/desafio-m5/countdown");
       currentMoves.myMove = "";
     });
 
@@ -73,7 +73,7 @@ export function initResultPage(url) {
     ) as HTMLElement;
 
     buttonStartEl.addEventListener("click", () => {
-      url.goTo("/countdown");
+      url.goTo("/desafio-m5/countdown");
       currentMoves.myMove = "";
     });
 
