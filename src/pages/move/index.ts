@@ -11,11 +11,11 @@ export function initMovePage(url) {
   // CASO DE QUE NO SE HAYA EJECUTADO NINGUNA JUGADA.
   if (currentMoves.myMove == "") {
     setTimeout(function () {
-      url.goTo("/instructions");
+      url.goTo("/desafio-m5/instructions");
     }, 0);
   } else {
     setTimeout(function () {
-      url.goTo("/result");
+      url.goTo("/desafio-m5/result");
     }, 3000);
   }
 

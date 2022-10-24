@@ -12,7 +12,7 @@ export function initStartPage(url) {
   ) as HTMLElement;
 
   buttonStartEl.addEventListener("click", () => {
-    url.goTo("/instructions");
+    url.goTo("/desafio-m5/instructions");
   });
 
   return addStartPage;

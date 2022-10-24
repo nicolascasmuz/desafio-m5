@@ -7,7 +7,7 @@ export function initCountdownPage(url) {
     `;
 
   setTimeout(function () {
-    url.goTo("/move");
+    url.goTo("/desafio-m5/move");
   }, 3000);
 
   return addCountdownPage;
